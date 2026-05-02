@@ -1,0 +1,28 @@
+:_mod-docs-content-type: ASSEMBLY
+[id="virt-creating-vms-uploading-images"]
+= Creating VMs by uploading images
+include::_attributes/common-attributes.adoc[]
+:context: virt-creating-vms-uploading-images
+
+toc::[]
+
+You can create virtual machines (VMs) by uploading operating system images from your local machine.
+
+You can create a Windows VM by uploading a Windows image to a PVC. Then you clone the PVC when you create the VM.
+
+[IMPORTANT]
+====
+You must install the xref:../../../virt/managing_vms/virt-installing-qemu-guest-agent.adoc#virt-installing-qemu-guest-agent[QEMU guest agent] on VMs created from operating system images that are not provided by Red Hat.
+
+You must also install xref:../../../virt/managing_vms/virt-installing-qemu-guest-agent.adoc#installing-virtio-drivers[VirtIO drivers] on Windows VMs.
+====
+
+[role="_additional-resources"]
+[id="additional-resources-creating-windows-vms"]
+
+.Additional resources for creating Windows VMs
+* link:https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/sysprep\--generalize\--a-windows-installation[Microsoft, Sysprep (Generalize) a Windows installation]
+* link:https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/generalize[Microsoft, generalize]
+* link:https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/specialize[Microsoft, specialize]
+
+// To do: Editing VM spec to include DV from uploaded image
