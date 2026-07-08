@@ -1,6 +1,6 @@
 :_mod-docs-content-type: ASSEMBLY
 [id="virt-creating-vms-from-cli"]
-= Creating virtual machines by using the CLI
+= Uploading a virtual machine image by using the CLI
 include::_attributes/common-attributes.adoc[]
 :context: virt-creating-vms-cli
 
@@ -15,7 +15,7 @@ You can also create VMs from instance types by using the {product-title} web con
 ====
 
 include::modules/virt-creating-vm-cli.adoc[leveloffset=+1]
-
+include::modules/virt-uploading-image-virtctl.adoc[leveloffset=+1]
 include::modules/virt-supported-custom-video-devices.adoc[leveloffset=+2]
 
 [role="_additional-resources"]
